@@ -9,7 +9,7 @@ def caesar_enkripsi(kalimat_awal,kunci):
       rumus = 97 + ((ord(i) - 97 + kunci))
       enkripsi = enkripsi + chr(rumus)
     else:
-      enkripsi = enkripsi +  " "
+      enkripsi = enkripsi + i
  
   print("Hasil enkripsinya adalah:",enkripsi)
   
@@ -23,7 +23,7 @@ def caesar_dekripsi(hasil_enkripsi,kunci):
         rumus = 97 + ((ord(i) - 97 - kunci)) 
         dekripsi = dekripsi + chr(rumus)
     else:
-        dekripsi = dekripsi + " "  
+        dekripsi = dekripsi + i  
  
   print("Hasil dekripsi dari kalimat tersebut adalah : ",dekripsi)
 

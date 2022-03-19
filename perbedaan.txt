@@ -1,0 +1,9 @@
+perbedaan antara program caesar cipher dengan modulo dan tanpa modulo adalah :
+1. Jika program menggunakan modulo maka index abjad dari alphabet akan dibatasi sebanyak 26,
+   jadi jika suatu huruf begeser sampai melebihi index z (index 26) maka akan mengulangi ke index awal
+   contoh : jika kita akan menggeser huruf "Z" sebanyak satu geseran (satu index) maka yang akan tampil adalah huruf "A"
+   
+2. Jika program tidak menggunakan modulo maka index abjad dari alphabet tidak akan di batasi sehingga,
+   jadi jika suatu huruf bergeser sampai melebihi index z (index 26) maka yang akan tampil adalah symbol dari index tersebut (karena menggunakan fungsi ord())
+   contoh : jika kita akan menggeser huruf "Z" sebanyak satu geseran (satu index) maka yang akan tampil adalah simbol "{"
+   
